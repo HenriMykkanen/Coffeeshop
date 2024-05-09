@@ -1,0 +1,291 @@
+:root {
+  --main-color1: #0f1f38;
+  --main-color2: #8e7970;
+  --main-color3: #f55449;
+  --main-color4: #1b4b5a;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: black;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #eff3f9;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 40px;
+  }
+}
+
+.customnavbarcolor {
+  background-color: var(--main-color1);
+}
+
+.navbar a {
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.nav-item:hover .nav-link {
+  color: #f55449 !important;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar a.navbar-brand {
+  color: var(--main-color3) !important;
+}
+
+.maincontent {
+  min-height: 100vh;
+  height: 100%;
+  max-width: 1280px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-top: 5vh;
+}
+
+.custombutton {
+  color: white;
+  background-color: transparent;
+  border-color: #f55449;
+}
+
+.custombutton:hover {
+  color: #fff;
+  background-color: #d14c42;
+  border-color: #d14c42;
+}
+
+.custombutton-darktext {
+  color: black;
+  background-color: transparent;
+  border-color: #f55449;
+}
+
+.custombutton-darktext:hover {
+  color: white;
+  background-color: #d14c42;
+  border-color: #d14c42;
+}
+
+.catalog {
+  min-height: 100vh;
+  height: 100%;
+  max-width: 1280px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-top: 5vh;
+  background-color: #fff !important;
+}
+
+.productmanagement {
+  min-height: 100vh;
+  height: 100%;
+  max-width: 1280px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-top: 5vh;
+  background-color: #fff !important;
+}
+
+.footer {
+  background-color: var(--main-color1) !important;
+}
+
+.productcatalogcontainer {
+  max-width: 1000px;
+}
+
+.productcatalogprice {
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.productcatalogname {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem;
+}
+
+.productcatalogcard {
+  transition: 0.3s ease-in-out;
+}
+
+.productcatalogcard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.productcatalogimage {
+  object-fit: cover;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0;
+}
+
+.productimage {
+  max-height: 600px;
+  max-width: 430px;
+}
+
+.productdescription {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+.productpagecard {
+  min-height: 50vh;
+}
+
+.shoppingcartcard {
+  min-height: 35vh;
+}
+
+.productnameincart {
+  font-size: 1.2rem;
+}
+
+.productpriceincart {
+  font-size: 1rem;
+}
+
+.shoppingcartrow {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #eff3f9;
+}
+
+.shoppingcarttotal p {
+  font-size: 1rem;
+}
+
+.lastbeforetotal {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #eff3f9;
+}
+
+.deletebuttoncol {
+  max-height: 20px;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.bg-indigo {
+  background-color: #4835d4;
+}
+
+@media (min-width: 992px) {
+  .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+.addresscolumn {
+  background-color: var(--main-color1);
+}
+
+.personalinfocolumn {
+  background-color: var(--main-color3);
+}
+
+.explore {
+  background-color: #1b4b5a;
+  border-color: #1b4b5a;
+}
+
+.explore:hover {
+  background-color: #143742;
+  border-color: #143742;
+}
+
+#cart-count {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+
+#cart-count.more {
+  background-color: var(--main-color3);
+}
+
+.form-check-input:checked {
+  background-color: var(--main-color3) !important;
+  border-color: var(--main-color3) !important;
+}
+
+.small-images {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.small-image {
+  width: 30%;
+  height: auto;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.active {
+  border: 2px solid black;
+}
