@@ -7,6 +7,9 @@
  - Bootstrap to achieve responsiveness for mobile & desktop users
  - jQuery for Ajax ease of use
 
+ A live version of the project can currently be found at http://sakky.luowa.fi/henri_mykkanen/n%C3%A4ytt%C3%B6ty%C3%B6/index.php#
+ but I've also added images below
+
 ## Screenshots featuring core functionalities and theming:
 
 ### Landing page
